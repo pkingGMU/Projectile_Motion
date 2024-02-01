@@ -12,7 +12,7 @@ knownDict = {}
 for i in range(2):
 
     key = input("Type in a known category: ")
-    value = int(input("Type in the value: "))
+    value = float(input("Type in the value: "))
     knownDict[key] = value 
 
     if i !=0:
